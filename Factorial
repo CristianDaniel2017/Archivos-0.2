@@ -3,7 +3,7 @@
 # Para compilar y ejecutar: ruby Factorial.rp (valor)
 #ejemplo: ruby Factorial.rp 3
 puts ' '
-puts "\e[31m By Juan FGR !\e[0m" #Color rojo, sobre esto ahi mucha informacion en internet
+puts "\e[31m By CD!\e[0m" #Color rojo, sobre esto ahi mucha informacion en internet
 puts 
 
 #Sencilla funcion recursiva bastante famosa en la web y cualquier libro de programacion
