@@ -1,0 +1,21 @@
+#!/usr/bin/env ruby
+
+#Codigo realizado por Juan Francisco Gonzalez Ramos
+
+
+puts ' '
+puts "\e[31m By Juan FGR !\e[0m" #Color rojo, sobre esto ahi mucha informacion en internet
+puts ' '
+
+def c2p(x,y)
+   theta = Math.atan2(y,x)
+   r = Math.hypot(x,y)
+   [r,theta]
+end
+
+x,y = 1,1 # Sustituid los valores por los que querais pasar a polar
+x,y = ARGV.map { |t| t.to_f} if ARGV.length == 2
+r,theta = c2p(x,y)
+
+puts "r = #{r} theta = #{theta}\n"
+puts '
