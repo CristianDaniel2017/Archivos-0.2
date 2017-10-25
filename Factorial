@@ -1,0 +1,20 @@
+#!/usr/bin/env ruby
+
+# Para compilar y ejecutar: ruby Factorial.rp (valor)
+#ejemplo: ruby Factorial.rp 3
+puts ' '
+puts "\e[31m By Juan FGR !\e[0m" #Color rojo, sobre esto ahi mucha informacion en internet
+puts 
+
+#Sencilla funcion recursiva bastante famosa en la web y cualquier libro de programacion
+
+def fact(n)
+  if n== 0
+    1
+  else
+    n*fact(n-1)
+  end #Fin if-else
+end #Fin de funcion
+
+ #ARGV[0] captura el primer dato introducido en la linea de comando
+print fact(ARGV[0].to_i), "\n"
