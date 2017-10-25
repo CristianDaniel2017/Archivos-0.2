@@ -4,7 +4,7 @@
 
 
 puts ' '
-puts "\e[31m By Juan FGR !\e[0m" #Color rojo, sobre esto ahi mucha informacion en internet
+puts "\e[31m By!\e[0m" #Color rojo, sobre esto ahi mucha informacion en internet
 puts ' '
 
 def c2p(x,y)
